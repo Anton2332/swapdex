@@ -1,7 +1,6 @@
 {
   "name": "swapdex",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "concurrently \"node server/server.js\" \"next dev\"",
     "build": "concurrently \"node server/server.js\" \"next build\"",
